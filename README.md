@@ -73,6 +73,8 @@ A simple 3D car avoidance game built with the Ursina Engine. You control a car o
    * `track.png` (texture for the ground)
    * `car0.png` (player car)
    * `car1.png`, `car2.png`, `car3.png`, `car4.png` (oncoming cars)
+   * `bg_music.mp3` (Background Music)
+   * `game_over.mp3` (Game over Music)
 
 ---
 
@@ -108,6 +110,8 @@ No other inputs are required—your car automatically drives forward, and oppone
 Race-Cars/
 ├── assets/
 │   ├── car0.png        # Player’s car
+│   ├── game_over.mp3   # Game over Music
+│   ├── bg_music.mp3    # Background Music
 │   ├── car1.png        # Enemy car #1
 │   ├── car2.png        # Enemy car #2
 │   ├── car3.png        # Enemy car #3
