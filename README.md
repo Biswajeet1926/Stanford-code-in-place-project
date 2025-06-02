@@ -68,7 +68,7 @@ A simple 3D car avoidance game built with the Ursina Engine. You control a car o
    ```
 
 4. **Verify that you have the required assets**
-   Make sure there is an `assets/` folder next to `squid.py` containing:
+   Make sure there is an `assets/` folder next to `race_cars.py` containing:
 
    * `track.png` (texture for the ground)
    * `car0.png` (player car)
@@ -86,7 +86,7 @@ A simple 3D car avoidance game built with the Ursina Engine. You control a car o
 2. **Run the game script**
 
    ```bash
-   python squid.py
+   python race_cars.py
    ```
 3. The game window will open. Use **A** / **D** (or **Left** / **Right** arrows) to move your car left and right. Dodge the oncoming cars on the track.
 
@@ -120,7 +120,7 @@ Race-Cars/
 * **`assets/`**
   Contains all PNG assets used by the game. Each car image should face upward (north) in its source file, since the code rotates them as needed.
 
-* **`squid.py`**
+* **`race_cars.py`**
   The single Python file containing the entire game logic (initialization, update loop, entity definitions, collision handling, etc.)
 
 ---
@@ -167,7 +167,7 @@ Race-Cars/
 
   * A repeating ground texture. Should look like a road or racing track, at least 512×512 px (the code will tile/scale it).
 
-> **Tip:** If your assets aren’t exactly the recommended dimensions, you can still use them—just adjust the constants `PLAYER_WIDTH`, `PLAYER_HEIGHT`, `ENEMY_WIDTH`, and `ENEMY_HEIGHT` at the top of `squid.py` to match your PNG sizes.
+> **Tip:** If your assets aren’t exactly the recommended dimensions, you can still use them—just adjust the constants `PLAYER_WIDTH`, `PLAYER_HEIGHT`, `ENEMY_WIDTH`, and `ENEMY_HEIGHT` at the top of `race_cars.py` to match your PNG sizes.
 
 ---
 
@@ -175,7 +175,7 @@ Race-Cars/
 
 * **`ModuleNotFoundError: No module named 'ursina'`**
 
-  * Make sure you installed Ursina in the same Python environment where you’re running `squid.py`.
+  * Make sure you installed Ursina in the same Python environment where you’re running `race_cars.py`.
   * If you have multiple Python versions, run:
 
     ```bash
@@ -185,9 +185,9 @@ Race-Cars/
 
 * **Assets not found / texture errors**
 
-  * Ensure the `assets/` folder is in the same directory as `squid.py`.
+  * Ensure the `assets/` folder is in the same directory as `race_cars.py`.
   * Double-check capitalization/spelling of file names (`car0.png`, `track.png`, etc.).
-  * Paths in `squid.py` assume `assets/` is a sibling folder. If you move files, update the strings accordingly.
+  * Paths in `race_cars.py` assume `assets/` is a sibling folder. If you move files, update the strings accordingly.
 
 * **Car positions “too big” or “too small”**
 
