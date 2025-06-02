@@ -34,7 +34,8 @@ A simple 3D car avoidance game built with the Ursina Engine. You control a car o
 <p align="center">  
   <img src="assets/demo.gif" alt="Gameplay demo" width="600">  
 </p>  
-*(Replace the above with an actual GIF or screenshot of your game.)*
+![image](https://github.com/user-attachments/assets/37054c74-1d6f-4a21-953d-1b231bcdfc58)
+
 
 ---
 
