@@ -31,10 +31,7 @@ A simple 3D car avoidance game built with the Ursina Engine. You control a car o
 
 ## Demo
 
-<p align="center">  
-  <img src="assets/demo.gif" alt="Gameplay demo" width="600">  
-</p>  
-![Gameplay Demo](https://github.com/Biswajeet1926/Stanford-code-in-place-project/blob/main/Race-Cars/assets/Screenshot%202025-06-02%20144507.png?raw=true)
+![image alt](https://github.com/Biswajeet1926/Stanford-code-in-place-project/blob/main/Race-Cars/assets/Screenshot%202025-06-02%20144507.png?raw=true)
 
 
 ---
