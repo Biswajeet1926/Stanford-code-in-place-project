@@ -104,16 +104,17 @@ No other inputs are required—your car automatically drives forward, and oppone
 ## File Structure
 
 ```
-ursina-car-avoidance/
+
+Race-Cars/
 ├── assets/
-│   ├── car0.png        # Player’s car (40×40 px, pointing up)
+│   ├── car0.png        # Player’s car
 │   ├── car1.png        # Enemy car #1
 │   ├── car2.png        # Enemy car #2
 │   ├── car3.png        # Enemy car #3
 │   ├── car4.png        # Enemy car #4
 │   └── track.png       # Ground texture for the track
-├── squid.py            # Main game script (Ursina)
-└── README.md           # This readme file
+├── race_cars.py        # Main game script (Ursina)
+└── README.md           # This is readme file
 ```
 
 * **`assets/`**
